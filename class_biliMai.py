@@ -1,8 +1,10 @@
 class dog:
+
+    number_of_dogs = 0 #类属性。要变所有的实例都会变，通过类名访问，如：dog.number_of_dogs
     def __init__(self,name,high,blood,power):#属性，要有参数，调用属性不需要（），如print（d1.name）
         self.name=name
         self.high=high
-        self.blood=blood
+        self.blood=10
         self.power=power
 
     def bark(self):#方法，调用方法需要（），如d1.bark（）
@@ -30,6 +32,6 @@ d2.reduce_blood(4)
 d2.reduce_blood(4)
 d2.reduce_blood(4)
 d2.bark()
-
+print(dog.number_of_dogs)
 
 
