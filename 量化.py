@@ -68,7 +68,7 @@ if __name__ == '__main__':
         '''
 
     run(strategy_id='379fb3b0-3415-11ec-a838-408d5c2bef20',
-        filename='main.py',
+        filename='量化.py',
         mode=MODE_BACKTEST,
         token='9dab3facd142ca238ba2b40798e4ba90473904a9',
         backtest_start_time='2009-09-17 13:00:00',
